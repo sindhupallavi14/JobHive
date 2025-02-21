@@ -15,4 +15,14 @@ export default class JobController{
     {
        res.render("login")
     }
+
+    getJobDetails(req,res)
+    {
+       res.render("Job-Details")
+    }
+
+    getApplicants(req,res)
+    {
+      res.render("Applicants")
+    }
 }

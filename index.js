@@ -17,5 +17,7 @@ server.get("/",jobController.getHomePage);
 server.get("/jobs",jobController.getJobs);
 server.get("/register",jobController.getRegisterForm);
 server.get("/login",jobController.getLoginForm);
+server.get("/job-details",jobController.getJobDetails);
+server.get("/applicants",jobController.getApplicants)
 
 server.listen(4100,()=>console.log("listening"));
