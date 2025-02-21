@@ -7,8 +7,12 @@ export default class JobController{
     getJobs(req,res){
       res.render("Jobs")
     }
-
-    getRegisterForm(Req,res){
+    getRegisterForm(req,res){
       res.render("register")
+    }
+
+    getLoginForm(req,res)
+    {
+       res.render("login")
     }
 }
